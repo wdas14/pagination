@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  margin: 0 20px;
+  padding: 0;
+}
+ul > li {
+  list-style-type: none;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+}
+
+a {
+  border: 1px solid lightblue;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:hover, a:active, .selectedPage {
+  color: darkcyan;
+  border-color: darkcyan;
+}
