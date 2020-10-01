@@ -29,12 +29,14 @@ const App = () => {
 	}
 
 	const handlePrevNext = (currentPage, buttonType) => {
-		let newPageNumber;
+		let newPageNumber = currentPage;
+
 		if(buttonType === 'prev' && currentPage > 1) {
 			newPageNumber = currentPage - 1;
 		}else if(buttonType === 'next' && currentPage < 10){
 			newPageNumber = currentPage + 1
 		}
+		
 		setCurrentPage(newPageNumber);
 	}
 
