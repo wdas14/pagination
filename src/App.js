@@ -32,7 +32,7 @@ const App = () => {
 		<div className="App">
 			<h1>Pagination</h1>
 			<Posts posts={currentPosts} isLoading={isLoading} />
-			<Pagination postsPerPage={postsPerPage} totalPosts={posts.length} handleClick={handleClick} currentPage={currentPage}/>
+			<Pagination postsPerPage={postsPerPage} totalPosts={posts.length + 1} handleClick={handleClick} currentPage={currentPage}/>
 		</div>
 	);
 }
